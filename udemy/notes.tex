@@ -8,14 +8,21 @@
 \begin{document}
 
 
+	\section{General}
 
-    \begin{itemize}
-        \item Los pines digitales pueden leer señales digitales, es decir, que dichos pines distinguen entre un valor alto (1) y un valor bajo (0). Esto se traduce en un valor alto de voltaje (5 V, por ejemplo) y un valor bajo (0 V). En la realidad estos valores son más bien un rango de posibles valores (3.5-5 V / 0-3.0 V).
-        \item Los "pull-down" y "pull-up" resistors se usan para que cuando un circuito esté abierto, el voltaje de los pines de entrada no sea el del propio pin (indeterminado) si no un valor de referencia.
-        \item La modulación por ancho de pulsos (PWM) es una técnica que permite controlar la potencia que transmite una señal mediante la interrupción de la señal durante parte de su periodo. Así es como se simula en Arduino las señales analógicas de salida.
-        \item Las entradas analógicas de Arduino aceptan un voltaje máximo de 5 V y tienen una resolución de 10 bits (1024).
-		\item Arduino incluye tres protocolos de comunicación, UART, I2C y SPI.
-    \end{itemize}
+	    \begin{itemize}
+	        \item Los pines digitales pueden leer señales digitales, es decir, que dichos pines distinguen entre un valor alto (1) y un valor bajo (0). Esto se traduce en un valor alto de voltaje (5 V, por ejemplo) y un valor bajo (0 V). En la realidad estos valores son más bien un rango de posibles valores (3.5-5 V / 0-3.0 V).
+	        \item Los "pull-down" y "pull-up" resistors se usan para que cuando un circuito esté abierto, el voltaje de los pines de entrada no sea el del propio pin (indeterminado) si no un valor de referencia.
+	        \item La modulación por ancho de pulsos (PWM) es una técnica que permite controlar la potencia que transmite una señal mediante la interrupción de la señal durante parte de su periodo. Así es como se simula en Arduino las señales analógicas de salida.
+	        \item Las entradas analógicas de Arduino aceptan un voltaje máximo de 5 V y tienen una resolución de 10 bits (1024).
+			\item Arduino incluye tres protocolos de comunicación, UART, I2C y SPI.
+	    \end{itemize}
+
+	\section{Programación}
+		\begin{itemize}
+			\item Las funciones "setup" y "loop" no aceptan argumentos. Ambas funciones deben estar presentes en todos los "sketchs".
+		\end{itemize}
+
 
     https://aprendiendoarduino.wordpress.com/
 
